@@ -1,5 +1,11 @@
+### start up
 
-### Test
+```shell
+cd ci
+docker compose up -d 
+```
+
+### test
 
 ```shell
 
