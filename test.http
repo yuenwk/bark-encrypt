@@ -1,0 +1,10 @@
+###
+POST localhost:9090/push-ciphertext
+Content-Type: application/json
+
+{
+  "title": "test",
+  "device_key": "123xxx",
+  "sound": "newsflash",
+  "iv": "1234567890123456"
+}

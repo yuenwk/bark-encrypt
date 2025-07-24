@@ -1,0 +1,7 @@
+services:
+  bark-encrypt:
+    build: ../bark-encrypt
+    container_name: bark-encrypt
+    restart: unless-stopped
+    env_file:
+      - .env
