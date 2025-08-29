@@ -1,5 +1,14 @@
 ### start up
 
+config.yaml
+
+```yaml
+port: 9090
+bark:
+  aes_key: 1234567890123456
+  domain: bark.domain.com
+```
+
 ```shell
 cd ci
 docker compose up -d 

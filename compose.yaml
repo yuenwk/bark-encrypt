@@ -2,8 +2,10 @@ services:
   bark-encrypt:
     build:
       context: ..
-      dockerfile: ./ci/Dockerfile
+      dockerfile: ../Dockerfile
     container_name: bark-encrypt
+    volumes:
+      - ./config.yaml:/app/config.yaml
     restart: unless-stopped
     env_file:
       - .env
